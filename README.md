@@ -56,7 +56,7 @@ MySQL: <a href="https://dev.mysql.com/downloads/installer/">https://dev.mysql.co
     ```
 
 
-## Comandos Para Rodar API
+## Comandos Finalizar Instalação da API
 - MySQL Command Line Client: 
 
   ```bash
@@ -65,9 +65,9 @@ MySQL: <a href="https://dev.mysql.com/downloads/installer/">https://dev.mysql.co
 
 - bash:
 
-```bash
-$ npm install
-```
+  ```bash
+  $ npm install
+  ```
 
 ## Rodar API
 
