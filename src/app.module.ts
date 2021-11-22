@@ -12,7 +12,7 @@ import { MedicosService } from './medico/medico.service';
     SequelizeModule.forRoot({
       dialect: 'mysql',
       host: 'localhost',
-      port: 3306,
+      port: Number(process.env.PORTA_BANCO),
       username: process.env.USER_BANCO,
       password: process.env.SENHA_BANCO,
       database: 'hospital',
