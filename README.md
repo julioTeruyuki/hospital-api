@@ -44,6 +44,7 @@ Ferramenta escolhida:
 ## Requisitos para Rodar API
 
 Node.js: <a href="https://nodejs.org/pt-br/">https://nodejs.org/pt-br/<a>
+
 MySQL: <a href="https://dev.mysql.com/downloads/installer/">https://dev.mysql.com/downloads/installer/<a>
 
 .env: Criar um arquivo ".env" para colocar as configurações do banco de dados
