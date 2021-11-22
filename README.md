@@ -57,7 +57,13 @@ MySQL: <a href="https://dev.mysql.com/downloads/installer/">https://dev.mysql.co
 
 
 ## Comandos Para Rodar API
-MySQL Command Line Client: <code>create database hospital;</code>
+- MySQL Command Line Client: 
+
+  ```bash
+  create database hospital;
+  ```
+
+- bash:
 
 ```bash
 $ npm install
