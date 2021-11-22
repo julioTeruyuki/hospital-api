@@ -22,52 +22,60 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descrição
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Uma API REST com um CRUD simples de médicos de um hospital
 
-## Installation
+Nome: Julio Teruyuki Noguchi Andres
+
+Ferramenta escolhida:
+  - Node.JS
+    - NestJS
+    - TypeScript
+    - Sequelize
+  - MySQL
+
+## Dificuldades
+
+- Essa foi meu primeiro desenvolvimento na pratica em NestJS, então tive muita dificuldade em aproveitar dele 100%
+- Não conhecia muito bem a ORM Sequelize, então não consegui criar uma estrutura no banco mais funcional
+- Não consegui implementar testes unitarios por não conhecer docker compose muito bem
+
+## Requisitos para Rodar API
+
+Node.js: <a href="https://nodejs.org/pt-br/">https://nodejs.org/pt-br/<a>
+MySQL: <a href="https://dev.mysql.com/downloads/installer/">https://dev.mysql.com/downloads/installer/<a>
+
+.env: Criar um arquivo ".env" para colocar as configurações do banco de dados
+  - Exemplo:
+
+    ```bash
+    USER_BANCO=root
+    SENHA_BANCO=exemplo_senha
+    PORTA_BANCO=3306
+    ```
+
+
+## Comandos Para Rodar API
+MySQL Command Line Client: <code>create database hospital;</code>
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Rodar API
 
 ```bash
-# development
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## Requisitos
+  - Estar no padrão REST <b>(FEITO)</b>
+  - Criar mecanismo de busca por todos os campos do cadastro do médico, incluindo o endereço <b>(FEITO)</b>
+  - Utilizar ferramenta de validação (exemplo: YUP) <b>(FEITO)</b>
+  - Funções especialistas (Realizam somente uma operação) <b>(FEITO)</b>
+  - Para documentação e requisição utilizar o Postman, Insomnia ou Swagger (Enviar junto com o teste o workspace utilizado) <b>(FEITO)</b>
+  - Subir o código em repositório público do GitHub <b>(FEITO)</b>
+  - Criar arquivo docker compose para avaliação do teste (ATENÇÃO: Sem esse arquivo seu teste não será executado) <b>(NÃO FEITO)</b>
+  - Testes unitários <b>(NÃO FEITO)</b>
+  - Testes "end to end" <b>(NÃO FEITO)</b>
