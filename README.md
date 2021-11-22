@@ -74,5 +74,5 @@ $ npm run start
 
 # POSTMAN
 
-Acessar Requisições
+Acessar Requisições: 
 <a href="https://documenter.getpostman.com/view/14617822/UVJYHxyv">https://documenter.getpostman.com/view/14617822/UVJYHxyv</a>
